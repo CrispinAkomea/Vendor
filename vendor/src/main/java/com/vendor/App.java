@@ -15,7 +15,7 @@ public class App {
 	 * properties file located in the resources folder.
 	 * 
 	 * Use the app.cfg.xml file to keep any other general application configurations
-	 * you need. Create the fields and load them in the try-with-resource block.
+	 * you need. Create the fields and load them in the try block.
 	 * 
 	 */
 	static {
