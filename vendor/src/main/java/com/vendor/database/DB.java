@@ -45,6 +45,23 @@ public class DB implements QueryBuilder, QueryRunner {
 		return db;
 	}
 
+	public void setQuery(String query) {
+		this.query.setLength(0);
+		this.query.append(query);
+	}
+
+	public String getQuery() {
+		return query.toString();
+	}
+
+	public void setTable(String table) {
+		this.table = table;
+	}
+
+	public String getTable() {
+		return table;
+	}
+
 	@Override
 	public DB select(String selection) {
 		query.setLength(0);
@@ -86,7 +103,7 @@ public class DB implements QueryBuilder, QueryRunner {
 	@Override
 	public DB and(String column, String operator, Object value) {
 		query.setLength(query.length() - 1);
-		query.append(" AND " + column + " = '" + value + "')");
+		query.append(" AND " + column + " " + operator + " '" + value + "')");
 		return this;
 	}
 
@@ -100,7 +117,7 @@ public class DB implements QueryBuilder, QueryRunner {
 	@Override
 	public DB or(String column, String operator, Object value) {
 		query.setLength(query.length() - 1);
-		query.append(" OR " + column + " = '" + value + "')");
+		query.append(" OR " + column + " " + operator + " '" + value + "')");
 		return this;
 	}
 
