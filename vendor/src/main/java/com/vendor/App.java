@@ -25,7 +25,6 @@ public class App {
 			name = properties.getProperty("app.name");
 			database = properties.getProperty("connection.url");
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
