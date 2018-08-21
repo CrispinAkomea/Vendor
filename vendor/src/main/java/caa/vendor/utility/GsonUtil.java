@@ -1,4 +1,4 @@
-package com.caa.vendor.utility;
+package caa.vendor.utility;
 
 public class GsonUtil {
 

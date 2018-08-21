@@ -1,4 +1,4 @@
-package com.caa.vendor;
+package caa.vendor;
 
 import java.io.IOException;
 import java.io.InputStream;

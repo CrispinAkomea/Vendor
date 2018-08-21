@@ -1,19 +1,19 @@
-package com.caa.vendor.database;
+package caa.vendor.database;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Before;
 import org.junit.Test;
 
-import com.caa.vendor.database.DB;
+import caa.vendor.database.DB;
 
 public class DBTest {
 
 	private final String table = "table";
-	private static DB classUnderTest;
+	private DB classUnderTest;
 
 	@Before
-	public static void setUp() {
+	public void setUp() {
 		classUnderTest = DB.raw("");
 		classUnderTest.setTable("table");
 	}

@@ -1,4 +1,4 @@
-package com.caa.vendor.contract;
+package caa.vendor.contract;
 
 import java.io.IOException;
 import java.sql.SQLException;
