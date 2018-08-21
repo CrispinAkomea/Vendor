@@ -1,4 +1,4 @@
-package com.vendor.utility;
+package com.caa.vendor.utility;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

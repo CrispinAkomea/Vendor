@@ -1,4 +1,4 @@
-package com.vendor.database;
+package com.caa.vendor.database;
 
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -7,12 +7,12 @@ import java.util.Map;
 
 import org.apache.commons.dbutils.handlers.MapListHandler;
 
-import com.vendor.App;
-import com.vendor.contract.QueryBuilder;
-import com.vendor.contract.QueryRunner;
-import com.vendor.utility.DBUtil;
-import com.vendor.utility.GsonBuilderUtil;
-import com.vendor.utility.GsonUtil;
+import com.caa.vendor.App;
+import com.caa.vendor.contract.QueryBuilder;
+import com.caa.vendor.contract.QueryRunner;
+import com.caa.vendor.utility.DBUtil;
+import com.caa.vendor.utility.GsonBuilderUtil;
+import com.caa.vendor.utility.GsonUtil;
 
 /**
  * 

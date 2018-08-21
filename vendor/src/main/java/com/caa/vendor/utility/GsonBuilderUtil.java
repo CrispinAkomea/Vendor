@@ -1,4 +1,4 @@
-package com.vendor.utility;
+package com.caa.vendor.utility;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

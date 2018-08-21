@@ -1,4 +1,4 @@
-package com.vendor.contract;
+package com.caa.vendor.contract;
 
 import java.util.Map;
 
