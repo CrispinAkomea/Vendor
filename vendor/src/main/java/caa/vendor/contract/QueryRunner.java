@@ -68,6 +68,9 @@ public interface QueryRunner {
 	 * 
 	 * Executes the insert query.
 	 * 
+	 * @param values
+	 *            - map of columns and values to be inserted
+	 * 
 	 * @throws SQLException
 	 * @throws IOException
 	 */
@@ -76,6 +79,9 @@ public interface QueryRunner {
 	/**
 	 * 
 	 * Executes the update query.
+	 * 
+	 * @param values
+	 *            - map of columns and values to be updated
 	 * 
 	 * @throws SQLException
 	 * @throws IOException
