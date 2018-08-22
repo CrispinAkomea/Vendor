@@ -4,7 +4,7 @@
 
 	<groupId>caa</groupId>
 	<artifactId>vendor</artifactId>
-	<version>1.0-RELEASE</version>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
 	<properties>
@@ -39,11 +39,6 @@
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
 			<version>3.8</version>
-		</dependency>
-		<dependency>
-			<groupId>javax.xml.bind</groupId>
-			<artifactId>jaxb-api</artifactId>
-			<version>2.3.0</version>
 		</dependency>
 	</dependencies>
 </project>
